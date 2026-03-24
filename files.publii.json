@@ -1,0 +1,197 @@
+[
+    {
+        "path": "404.html",
+        "type": "file",
+        "md5": "6da0ff02b54e04f9a5f18ee3a9ad4a4f"
+    },
+    {
+        "path": "assets",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/css",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/css/editor.css",
+        "type": "file",
+        "md5": "4202808df745f2ac7ab250606fa0d272"
+    },
+    {
+        "path": "/assets/css/main.css",
+        "type": "file",
+        "md5": "62a2f78af0273a34c857fead405f6094"
+    },
+    {
+        "path": "/assets/css/style.css",
+        "type": "file",
+        "md5": "2110fdcc9616a96348b5f5ad11c64055"
+    },
+    {
+        "path": "assets/dynamic",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "assets/js",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/js/scripts.js",
+        "type": "file",
+        "md5": "e66ec016e1abd2297b17a5d038b695b7"
+    },
+    {
+        "path": "/assets/js/scripts.min.js",
+        "type": "file",
+        "md5": "d0fc1030089a37f93a2d51bf6d07565c"
+    },
+    {
+        "path": "/assets/js/svg-fix.js",
+        "type": "file",
+        "md5": "9b7d020c55e2b4f77ab40c97f88f9ff4"
+    },
+    {
+        "path": "/assets/js/svg-map.js",
+        "type": "file",
+        "md5": "ff4392540fcf4c3d3f5e03806e112816"
+    },
+    {
+        "path": "assets/svg",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/assets/svg/svg-map.svg",
+        "type": "file",
+        "md5": "cf04dfd5c3cc64e0be44692fe7d976a6"
+    },
+    {
+        "path": "authors",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/mario-haustein",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/mario-haustein/index.html",
+        "type": "file",
+        "md5": "c81fd2a7219ad9c357b974a0ec319de2"
+    },
+    {
+        "path": "impressum.html",
+        "type": "file",
+        "md5": "11c39ec6c27343133485c58d6bacbacb"
+    },
+    {
+        "path": "index.html",
+        "type": "file",
+        "md5": "49a9fcc84b8459039131591aebedb4a7"
+    },
+    {
+        "path": "media",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "media/website",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/HAL9000.svg-2.png",
+        "type": "file",
+        "md5": "b0a67aa906cebbf48d9d4f2baefb423a"
+    },
+    {
+        "path": "/media/website/HAL9000.svg.png",
+        "type": "file",
+        "md5": "b0a67aa906cebbf48d9d4f2baefb423a"
+    },
+    {
+        "path": "media/website/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-2-2xl.png",
+        "type": "file",
+        "md5": "79c21ada3ba2f41a39f9374599323185"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-2-lg.png",
+        "type": "file",
+        "md5": "742fdb705823092c8c842fbb68def7eb"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-2-md.png",
+        "type": "file",
+        "md5": "431398d7930c5edfa594c26c1780a76c"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-2-sm.png",
+        "type": "file",
+        "md5": "1154209d92933d3546efdeba619eb4fa"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-2-xl.png",
+        "type": "file",
+        "md5": "fb5ff75f1fd0734d8f1178bc04b59dbc"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-2-xs.png",
+        "type": "file",
+        "md5": "7ff828fa6fda7dc304d1f1a7be669232"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-2xl.png",
+        "type": "file",
+        "md5": "79c21ada3ba2f41a39f9374599323185"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-lg.png",
+        "type": "file",
+        "md5": "742fdb705823092c8c842fbb68def7eb"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-md.png",
+        "type": "file",
+        "md5": "431398d7930c5edfa594c26c1780a76c"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-sm.png",
+        "type": "file",
+        "md5": "1154209d92933d3546efdeba619eb4fa"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-xl.png",
+        "type": "file",
+        "md5": "fb5ff75f1fd0734d8f1178bc04b59dbc"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-xs.png",
+        "type": "file",
+        "md5": "7ff828fa6fda7dc304d1f1a7be669232"
+    },
+    {
+        "path": "robots.txt",
+        "type": "file",
+        "md5": "9152d7f1724ed8fbcd2e0c87029f193c"
+    },
+    {
+        "path": "tags",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/tags/index.html",
+        "type": "file",
+        "md5": "9192700dfed0564ce46f018aa89e2fe1"
+    }
+]

@@ -1,0 +1,14 @@
+services:
+  nginx:
+    image: nginx:alpine-slim
+    container_name: nginx
+    restart: always
+    volumes:
+      - ./www:/usr/share/nginx/html
+      - /etc/localtime:/etc/localtime:ro
+    networks:
+      - proxy
+  
+networks:
+  proxy:
+    external: true      
