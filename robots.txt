@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://susertux.github.io/susertux.github.io/sitemap.xml
