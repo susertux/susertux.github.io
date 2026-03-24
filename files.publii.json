@@ -2,7 +2,7 @@
     {
         "path": "404.html",
         "type": "file",
-        "md5": "6da0ff02b54e04f9a5f18ee3a9ad4a4f"
+        "md5": "60c39b18611daee25118c41bdfc4f83b"
     },
     {
         "path": "assets",
@@ -82,17 +82,12 @@
     {
         "path": "/authors/mario-haustein/index.html",
         "type": "file",
-        "md5": "c81fd2a7219ad9c357b974a0ec319de2"
-    },
-    {
-        "path": "impressum.html",
-        "type": "file",
-        "md5": "11c39ec6c27343133485c58d6bacbacb"
+        "md5": "037fc3989b4ecf04309c65c7859725df"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "49a9fcc84b8459039131591aebedb4a7"
+        "md5": "78b837b99488653ab1655ebdd9b5c904"
     },
     {
         "path": "media",
@@ -106,6 +101,11 @@
     },
     {
         "path": "/media/website/HAL9000.svg-2.png",
+        "type": "file",
+        "md5": "b0a67aa906cebbf48d9d4f2baefb423a"
+    },
+    {
+        "path": "/media/website/HAL9000.svg-3.png",
         "type": "file",
         "md5": "b0a67aa906cebbf48d9d4f2baefb423a"
     },
@@ -155,6 +155,36 @@
         "md5": "79c21ada3ba2f41a39f9374599323185"
     },
     {
+        "path": "/media/website/responsive/HAL9000.svg-3-2xl.png",
+        "type": "file",
+        "md5": "79c21ada3ba2f41a39f9374599323185"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-3-lg.png",
+        "type": "file",
+        "md5": "742fdb705823092c8c842fbb68def7eb"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-3-md.png",
+        "type": "file",
+        "md5": "431398d7930c5edfa594c26c1780a76c"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-3-sm.png",
+        "type": "file",
+        "md5": "1154209d92933d3546efdeba619eb4fa"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-3-xl.png",
+        "type": "file",
+        "md5": "fb5ff75f1fd0734d8f1178bc04b59dbc"
+    },
+    {
+        "path": "/media/website/responsive/HAL9000.svg-3-xs.png",
+        "type": "file",
+        "md5": "7ff828fa6fda7dc304d1f1a7be669232"
+    },
+    {
         "path": "/media/website/responsive/HAL9000.svg-lg.png",
         "type": "file",
         "md5": "742fdb705823092c8c842fbb68def7eb"
@@ -192,6 +222,6 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "9192700dfed0564ce46f018aa89e2fe1"
+        "md5": "d0d6b20c11ecc0a129a9f015c193c2ab"
     }
 ]
