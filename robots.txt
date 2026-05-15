@@ -1,2 +1,5 @@
 User-agent: *
 Disallow: /
+Disallow: /lp
+Disallow: /feedback
+Disallow: /langtest
