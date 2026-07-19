@@ -1,5 +1,4 @@
 User-agent: *
-Disallow: /
-Disallow: /lp
-Disallow: /feedback
-Disallow: /langtest
+Disallow:
+
+Sitemap: https://haustein.cc/sitemap.xml
