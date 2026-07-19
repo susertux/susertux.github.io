@@ -14,9 +14,6 @@
   <meta property="og:url" content="https://haustein.cc/">
   <meta property="og:title" content="haustein.cc – Under Construction">
   <meta property="og:description" content="Diese Seite wird gerade überarbeitet und kommt bald in einer neuen Version zurück.">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="haustein.cc – Under Construction">
-  <meta name="twitter:description" content="Diese Seite wird gerade überarbeitet und kommt bald in einer neuen Version zurück.">
 
   <!-- Favicon: geometrisches abstraktes H -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='5' fill='%23000'/><rect x='7' y='7' width='4' height='18' rx='1' fill='%23fff'/><rect x='14' y='13' width='4' height='6' rx='1' fill='%23fff'/><rect x='21' y='7' width='4' height='18' rx='1' fill='%23fff'/></svg>">
@@ -110,7 +107,6 @@
       margin-inline: auto;
     }
 
-    /* Footer Legal Links */
     .legal-links {
       position: fixed;
       bottom: var(--space-6);
@@ -131,7 +127,6 @@
     .legal-links a:hover,
     .legal-links a:focus-visible { color: var(--color-body); outline: none; }
 
-    /* Modal */
     .modal-overlay {
       display: none;
       position: fixed;
@@ -225,13 +220,11 @@
     <p>Diese Seite wird gerade überarbeitet und kommt bald in einer neuen Version zurück.</p>
   </main>
 
-  <!-- Footer Legal Links -->
   <nav class="legal-links" aria-label="Rechtliche Informationen">
     <a onclick="openModal('impressum')" role="button" tabindex="0">Impressum</a>
     <a onclick="openModal('datenschutz')" role="button" tabindex="0">Datenschutz</a>
   </nav>
 
-  <!-- Impressum Modal -->
   <div class="modal-overlay" id="modal-impressum" role="dialog" aria-modal="true" aria-labelledby="impressum-title">
     <div class="modal">
       <h2 id="impressum-title">Impressum</h2>
@@ -245,7 +238,6 @@
     </div>
   </div>
 
-  <!-- Datenschutz Modal -->
   <div class="modal-overlay" id="modal-datenschutz" role="dialog" aria-modal="true" aria-labelledby="datenschutz-title">
     <div class="modal">
       <h2 id="datenschutz-title">Datenschutzerklärung</h2>
