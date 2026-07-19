@@ -3,49 +3,98 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Under Construction</title>
+  <meta name="description" content="haustein.cc – Diese Seite wird gerade überarbeitet und kommt bald in einer neuen Version zurück.">
+  <title>Under Construction – haustein.cc</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23fff'/><text x='16' y='23' font-size='20' text-anchor='middle' font-family='Arial' fill='%23000'>H</text></svg>">
+
+  <!-- Satoshi von Fontshare -->
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,700&display=swap" rel="stylesheet">
+
   <style>
-    :root { color-scheme: dark; }
-    * { box-sizing: border-box; }
-    html, body { height: 100%; margin: 0; }
+    :root {
+      color-scheme: dark;
+
+      /* Spacing-System (4px-Basis) */
+      --space-1:  0.25rem;
+      --space-2:  0.5rem;
+      --space-3:  0.75rem;
+      --space-4:  1rem;
+      --space-5:  1.25rem;
+      --space-6:  1.5rem;
+      --space-8:  2rem;
+      --space-10: 2.5rem;
+
+      /* Farben */
+      --color-bg:        #000;
+      --color-text:      #fff;
+      --color-muted:     rgba(255,255,255,0.55);
+      --color-body:      rgba(255,255,255,0.82);
+
+      /* Typografie */
+      --font-body: 'Satoshi', Arial, Helvetica, sans-serif;
+
+      /* Übergänge */
+      --transition: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      height: 100%;
+    }
+
     body {
       display: grid;
       place-items: center;
-      background: #000;
-      color: #fff;
-      font-family: Arial, Helvetica, sans-serif;
+      background: var(--color-bg);
+      color: var(--color-text);
+      font-family: var(--font-body);
       text-align: center;
-      padding: 24px;
+      padding: var(--space-6);
       overflow: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
     }
-    main { max-width: 720px; }
+
+    main {
+      max-width: 720px;
+    }
+
     .kicker {
-      margin: 0 0 18px;
+      margin-bottom: var(--space-5);
       font-size: 0.85rem;
+      font-weight: 400;
       letter-spacing: 0.28em;
       text-transform: uppercase;
-      opacity: 0.55;
+      color: var(--color-muted);
     }
+
     h1 {
-      margin: 0;
       font-size: clamp(2.2rem, 8vw, 4.8rem);
       letter-spacing: 0.08em;
       text-transform: uppercase;
       font-weight: 700;
       line-height: 1.05;
     }
+
     .cursor {
       display: inline-block;
       margin-left: 0.18em;
       animation: blink 1s steps(1, end) infinite;
     }
+
     p {
-      margin: 18px auto 0;
+      margin-top: var(--space-5);
       font-size: 1rem;
       line-height: 1.7;
-      opacity: 0.82;
+      color: var(--color-body);
       max-width: 36ch;
+      margin-inline: auto;
     }
+
     .glow {
       position: fixed;
       inset: auto 50% 12%;
@@ -56,9 +105,14 @@
       filter: blur(30px);
       pointer-events: none;
     }
+
     @keyframes blink {
       0%, 49% { opacity: 1; }
       50%, 100% { opacity: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .cursor { animation: none; opacity: 1; }
     }
   </style>
 </head>
